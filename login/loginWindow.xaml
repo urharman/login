@@ -1,0 +1,21 @@
+﻿<Window x:Class="login.loginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:login"
+        mc:Ignorable="d"
+        Title="loginWindow" Height="450" Width="800" Background="DarkTurquoise">
+    <Border Background="Azure" Margin="20" CornerRadius="20">
+        <StackPanel Margin="20">
+            <Label Content="Login" HorizontalAlignment="Left" Margin="312,10,0,0" VerticalAlignment="Top" FontSize="50"/>
+            <Separator></Separator>
+                <Label Content="Username" Foreground="Black" FontSize="20"/>
+            <TextBox Name="txtUsername" Background="Orange" Foreground="Black" FontSize="18" Height="50" Width="800"/>
+            <Label Content="Password" Foreground="Black" FontSize="20"/>
+            <PasswordBox Name="txtPassword" Background="Orange" Foreground="Black" FontSize="18" Height="50" Width="800"/>
+            <Button Name="btnSubmit" Background="DimGray" Content="Submit" Foreground="red" FontSize="18" Margin="60 20" Height="40" Width="500"></Button>
+            
+        </StackPanel>
+    </Border>
+</Window>
